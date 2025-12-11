@@ -5,11 +5,11 @@ common binary versioning for go
 Usage:
 ```go
 import (
-	binver "scm.0xbad.coffee/jda/go-binver"
 	"fmt"
+	"scm.0xbad.coffee/jda/go-binver"
 )
 
-func main() {
-
+func ExampleCanonVersion() {
+	fmt.Println(binver.CanonVersion())
 }
 ```
