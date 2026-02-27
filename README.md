@@ -6,7 +6,7 @@ Usage:
 ```go
 import (
 	"fmt"
-	"scm.0xbad.coffee/jda/go-binver"
+	"github.com/jda/go-binver"
 )
 
 func ExampleCanonVersion() {
